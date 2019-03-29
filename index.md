@@ -2,8 +2,7 @@
 &nbsp;&nbsp;&nbsp;
 <a href="https://twitter.com/devploit">Twitter</a>
 &nbsp;&nbsp;&nbsp;
-<a href="https://linkedin.com/in/daniel-pua">LinkedIn</a>  
-&nbsp;   
+<a href="https://linkedin.com/in/daniel-pua">LinkedIn</a>   
 
 ## Public Repositories
 
