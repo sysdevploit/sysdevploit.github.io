@@ -5,6 +5,6 @@ permalink: /posts
 
 ## CTF Write-ups
 
-| CTF          | Challenge title   | Date              |
+| CTF          | Challenge         | Date              |
 |:-------------|:------------------|:------------------|
 |              |                   |                   |
