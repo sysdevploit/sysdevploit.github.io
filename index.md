@@ -3,6 +3,8 @@ title: Home
 permalink: /
 ---
 
+# Last Posts
+
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
