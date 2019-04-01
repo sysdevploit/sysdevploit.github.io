@@ -1,14 +1,19 @@
-<a href="https://github.com/sysdevploit">Github</a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://twitter.com/devploit">Twitter</a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://linkedin.com/in/daniel-pua">LinkedIn</a>   
-&nbsp;  
+---
+title: Home
+permalink: /
+---
 
-## Public Repositories
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-* * *
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-*   UAM-Writeups [https://github.com/sysdevploit/unaalmes-writeups](https://github.com/sysdevploit/unaalmes-writeups)
-*   Put2win [https://github.com/sysdevploit/put2win](https://github.com/sysdevploit/put2win)
-*   CTF_OnlineTools [https://github.com/sysdevploit/CTF_OnlineTools](https://github.com/sysdevploit/CTF_OnlineTools)
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
