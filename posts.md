@@ -3,8 +3,8 @@ title: Posts
 permalink: /posts
 ---
 
-### CTF Write-ups
+## CTF Write-ups
 
-| Title       | Date          |
-|:-------------|:------------------|
-|            |  |
+| CTF          | Challenge title   | Date              |
+|:-------------|:------------------|:------------------|
+|              |                   |                   |
