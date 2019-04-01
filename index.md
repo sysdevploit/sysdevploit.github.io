@@ -12,7 +12,7 @@ permalink: /
     <article class="post">
 
       <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-          <p>{{ post.description }} - {{ post.tags }} </p>
+          <p>Level: {{ post.description }} - {{ post.tags }} </p>
       <div class="entry">
         {{ post.excerpt }}
       </div>
