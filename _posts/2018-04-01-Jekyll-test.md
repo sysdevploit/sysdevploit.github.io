@@ -1,4 +1,6 @@
 ---
 layout: post
-title: "Jekyll test"
+title: Jekyll Test
+description: Testing this description
+tags: jekyll blog github-page
 ---
