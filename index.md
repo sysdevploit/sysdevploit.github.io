@@ -7,17 +7,11 @@ permalink: /
 
 * * *
 
-<div class="posts">
+<ul>
   {% for post in site.posts %}
-    <article class="post">
-
-      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-          <p>Level: {{ post.description }} - {{ post.tags }} </p>
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
+    </li>
   {% endfor %}
-</div>
+</ul>
