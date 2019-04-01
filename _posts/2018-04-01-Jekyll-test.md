@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jekyll Test
-description: Testing this description
+description: Level: Easy
 author: devploit
 tags: jekyll blog github-page
 ---
