@@ -5,7 +5,9 @@ permalink: /
 
 # Latest Posts
 
-* * *  
+* * *
+
+&nbsp;
 
 <div class="posts">
   {% for post in site.posts %}
