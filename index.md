@@ -3,7 +3,7 @@ title: Home
 permalink: /
 ---
 
-# Last Posts
+# Latest Posts
 
 * * *  
 
