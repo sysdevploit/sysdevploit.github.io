@@ -12,6 +12,7 @@ permalink: /
     <li>
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       <p>{{ post.excerpt }}</p>
+      <img src="https://tosbourn.com/img/css-title.png">
     </li>
   {% endfor %}
 </ul>
