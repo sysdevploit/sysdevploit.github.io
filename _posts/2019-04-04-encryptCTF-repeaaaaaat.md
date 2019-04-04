@@ -2,7 +2,7 @@
 layout: post
 title: repeaaaaaat - encryptCTF
 author: devploit
-item_image: https://imgur.com/RRpCsP5
+item_image: https://i.imgur.com/RRpCsP5.png
 tags: ctf encryptctf web jinja2 injection
 ---
 
@@ -22,11 +22,11 @@ tags: ctf encryptctf web jinja2 injection
 
 We start by visiting the URL where we can see a static website with the same image repeated infinitely.
 
-![Branching](https://imgur.com/sDCkxld)
+![Branching](https://i.imgur.com/sDCkxld.png)
 
 If we check the source code we can see an interesting base64 code that is changing randomly after every website refresh.
 
-![Octocat](https://imgur.com/raZODRq)
+![Octocat](https://i.imgur.com/raZODRq.png)
 
 After many refresh we have these base64 codes.
 
@@ -79,16 +79,16 @@ Searching and although the name and the statement do not seem to talk about inje
 
 Example of injection check in Jinja2:
 
-![Branching](https://imgur.com/HibuAGI)
+![Branching](https://i.imgur.com/HibuAGI.png)
 
 Knowing the way forward, exploitation is easily found with a Google search about this python template.
 
 To see all the files that are in the directory we must use the following injection.
 
-![Branching](https://imgur.com/3MjB0c9)
+![Branching](https://i.imgur.com/3MjB0c9.png)
 
 Finally, knowing the file that we want to list, we just have to do one more injection for it
 
-![Branching](https://imgur.com/jDVN3Cx)
+![Branching](https://i.imgur.com/jDVN3Cx.png)
 
 **Flag: encryptCTF{!nj3c7!0n5_4r3_b4D}**
