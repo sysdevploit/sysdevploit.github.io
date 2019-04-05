@@ -50,7 +50,7 @@ aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj01ckFPeWg3WW1FYwo=
 [+] Decoded from Base64 : https://www.youtube.com/watch?v=5rAOyh7YmEc
 ```
 
-It seems to be a YouTube video with nothing important... RABBIT HOLE
+It seems to be a YouTube video with nothing important... RABBIT HOLE!
 
 Proceed with the next base64 achieved on the home page.
 
@@ -66,7 +66,7 @@ aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2hcP3ZcPVBHakxoT2hNTFhjCg==
 [+] Decoded from Base64 : https://www.youtube.com/watch\?v\=PGjLhOhMLXc
 ```
 
-We get another no sense YouTube URL... ANOTHER RABBIT HOLE? Let's proceed with the last code obtained...
+We get another no sense YouTube URL... ANOTHER RABBIT HOLE?! Let's proceed with the last code obtained...
 
 ```
 <!-- Lz9zZWNyZXQ9ZmxhZw== -->
