@@ -87,7 +87,7 @@ To see all the files that are in the directory we must use the following injecti
 
 ![Branching](https://i.imgur.com/3MjB0c9.png)
 
-Finally, knowing the file that we want to list, we just have to do one more injection for it
+Finally, knowing the file that we want to list, we just have to do one more injection for it :)
 
 ![Branching](https://i.imgur.com/jDVN3Cx.png)
 
