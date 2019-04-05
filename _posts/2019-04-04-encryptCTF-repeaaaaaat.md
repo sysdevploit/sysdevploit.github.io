@@ -28,7 +28,7 @@ If we check the source code we can see an interesting base64 code that is changi
 
 ![Octocat](https://i.imgur.com/raZODRq.png)
 
-After many refresh we have these base64 codes.
+After many refreshes we have these base64 codes.
 
 ```
 <!-- d2hhdF9hcmVfeW91X3NlYXJjaGluZ19mb3IK -->
