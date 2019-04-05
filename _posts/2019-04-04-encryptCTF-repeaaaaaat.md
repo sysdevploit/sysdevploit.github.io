@@ -91,4 +91,4 @@ Finally, knowing the file that we want to list, we just have to do one more inje
 
 ![Branching](https://i.imgur.com/jDVN3Cx.png)
 
-**Flag: encryptCTF{!nj3c7!0n5_4r3_b4D}**
+`Flag: encryptCTF{!nj3c7!0n5_4r3_b4D}`
