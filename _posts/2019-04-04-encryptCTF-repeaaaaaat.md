@@ -6,7 +6,7 @@ item_image: https://i.imgur.com/RRpCsP5.png
 tags: ctf encryptctf web jinja2 injection
 ---
 
-### Challenge:
+### 0x01 Challenge:
 
 **Level:** Easy
 
@@ -18,7 +18,7 @@ tags: ctf encryptctf web jinja2 injection
 >http://104.154.106.182:5050  
 >author: codacker
 
-### Write-up:
+### 0x02 Write-up:
 
 We start by visiting the URL where we can see a static website with the same image repeated infinitely.
 
