@@ -1,8 +1,5 @@
-theme: jekyll-theme-console
+theme: jekyll-theme-hacker
 title: home / devploit
 devploit:
   name: Daniel Púa
   web: http://www.twitter.com/devploit
-
-plugins:
-  - jekyll-remote-theme
