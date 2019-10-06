@@ -31,7 +31,7 @@ telnetd> help
 Help:
  - ls
  - id
- - unametelnetd> help
+ - uname
 ```
 
 If we check the request made when executing a command, we can see that each one has an associated signature.
