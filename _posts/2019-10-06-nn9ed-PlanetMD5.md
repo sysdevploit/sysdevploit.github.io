@@ -83,7 +83,7 @@ for x in range(1, 60):
         print 'Key length:     ' + str(x) + ' -> ' + r.text.strip()
 ```
 
-The use of it is to let us know when we have managed to execute the 'ls' command attached to the 'id' command itself. So when it finds an 'index.php' file it notifies us with the complete URL and the key length as we see in the following image as we can see.
+The use of it is to let us know when we have managed to execute the 'ls' command attached to the 'id' command itself. So when it finds an 'index.php' file it notifies us with the complete URL and the key length as we see in the following image.
 
 ![Branching](https://i.imgur.com/8rmdyhj.png)
 
