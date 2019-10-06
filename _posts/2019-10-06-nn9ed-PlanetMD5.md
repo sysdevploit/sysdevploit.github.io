@@ -125,7 +125,7 @@ print 'Key length:     ' + str(x)
 
 We execute it, we visit the complete URL that it gives us and we verify that we receive reverse shell on our server.
 
-![Branching](https://i.imgur.com/2nmf6uS.png)
+![Branching](https://i.imgur.com/vCWLrl6.png)
 
 ![Branching](https://i.imgur.com/pbgwWff.png)
 
