@@ -218,8 +218,8 @@ BITS 64
 ehdr:                                               ; Elf64_Ehdr
             db      0x7F, "ELF", 2, 1, 1, 0         ;   e_ident
             db      0,0,0,0,0,0,0,0
-            dw      3								; 	e_type
-			dw		62                           	;   e_machine
+            dw      3				    ; 	e_type
+	    dw	    62                         	    ;   e_machine
             dd      1                               ;   e_version
             dq      _init_proc, overlapphdr         ;   e_entry, e_phoff
 
@@ -231,10 +231,10 @@ codepart1:
     mov rsi, rsp
     syscall
     db 0
-            dw      0x40							;	e_ehsize
-            dw		0x38							;	e_phentsize
-            dw		2								;	e_phnum
-            dw		0x40             				;	e_shentsize
+            dw      0x40			    ;	e_ehsize
+            dw      0x38			    ;	e_phentsize
+            dw	    2			    	    ;	e_phnum
+            dw	    0x40             	    	    ;	e_shentsize
 
 overlapphdr:
             dw      1, 0                            ;   e_shnum, e_shstrndx
@@ -245,8 +245,8 @@ ehdrsize    equ     $ - ehdr
 ; Program Headers.
 phdr:                                               ; Elf64_Phdr
             dd      7                               ;   p_flags
-            dq      0								;	p_offset
-            dq		0                            	;   p_vaddr
+            dq      0				    ;	p_offset
+            dq	    0                               ;   p_vaddr
 
 ; Payload
 _init_proc:
@@ -255,15 +255,15 @@ _init_proc:
 	cdq
 	mov rbx, 0x68732F6E69622F
 	jmp codepart1
-            dq      filesize						;	p_memsz
-            dq		0x1000                			;   p_align
+            dq      filesize			    ;	p_memsz
+            dq	    0x1000                	    ;   p_align
 
 phdrsize    equ     $ - phdr
 
-            dd      2								;	p_type
-            dd		6                           	;   p_flags
-            dq      elf64dyn						;	p_offset
-            dq		elf64dyn              			;	p_vaddr
+            dd      2				    ;	p_type
+            dd	    6                               ;   p_flags
+            dq      elf64dyn			    ;	p_offset
+            dq	    elf64dyn              	    ;	p_vaddr
 
 elf64dyn:
             dq 		0x0c
