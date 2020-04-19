@@ -6,9 +6,9 @@ item_image: https://www.primalsecurity.net/wp-content/uploads/2014/08/Header.png
 tags: ctf plaidCTF shellcoding assembly
 ---
 
-## 0x01 Challenge:
+### 0x01 Reto:
 
-**Level:** Medium/Hard
+**Nivel:** Medium/Hard
 
 **Descripción:**
 
