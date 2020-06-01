@@ -2,7 +2,7 @@
 layout: post
 title: Zelda Adventures - nullcon HackIM
 author: devploit
-item_image: https://cdn1us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/3/37/zelda_primary_0.jpg?itok=2xgSu9xO
+item_image: https://i.ytimg.com/vi/FK2jti8jQRw/maxresdefault.jpg
 tags: ctf nullcon hackim reversing game .net
 ---
 
