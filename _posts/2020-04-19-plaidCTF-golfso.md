@@ -2,7 +2,7 @@
 layout: post
 title: golf.so - plaidCTF
 author: devploit
-item_image: https://www.primalsecurity.net/wp-content/uploads/2014/08/Header.png
+item_image: https://www.profesionalreview.com/wp-content/uploads/2017/03/Shell-Script-Linux-1280x720.png
 tags: ctf plaidCTF shellcoding assembly
 ---
 
