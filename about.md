@@ -14,6 +14,6 @@ You can follow me here:
 *	[Github](https://github.com/devploit)
 *	[Twitter](https://twitter.com/devploit)
 * [CTFtime](https://ctftime.org/user/25930)
-* [HackTheBox](https://www.hackthebox.eu/home/users/profile/1912)
+* [HackTheBox](https://www.hackthebox.eu/profile/1912)
 * [Hackerone](https://hackerone.com/devploit)
 *	[LinkedIn](https://www.linkedin.com/in/daniel-pua/)
