@@ -7,7 +7,7 @@ permalink: /about
 
 Hi, my name is Daniel and I'm infosec lover from Cádiz (Spain). Now I'm living on Malaga where I work and do my stuff. I also participate in CTFs as a hobby, my team is [Ripp3rs](https://ctftime.org/team/50984).
 
-Currently working at [HISPASEC](https://www.hispasec.com/).
+Currently working at [DEKRA](https://www.dekra.com/en/home/).
 
 You can follow me here:
 
