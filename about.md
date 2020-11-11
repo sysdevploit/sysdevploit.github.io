@@ -11,9 +11,10 @@ Currently working at [DEKRA](https://www.dekra.com/en/home/).
 
 You can follow me here:
 
-*	[Github](https://github.com/devploit)
 *	[Twitter](https://twitter.com/devploit)
+* [YouTube](https://www.youtube.com/channel/UCF7wf7sSCQoURJSnMbDZpBw)
+* [Twitch](https://www.twitch.tv/devploit)
+*	[Github](https://github.com/devploit)
 * [CTFtime](https://ctftime.org/user/25930)
 * [HackTheBox](https://www.hackthebox.eu/profile/1912)
-* [Hackerone](https://hackerone.com/devploit)
 *	[LinkedIn](https://www.linkedin.com/in/daniel-pua/)
