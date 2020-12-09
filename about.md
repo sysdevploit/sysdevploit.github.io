@@ -12,7 +12,7 @@ Currently working at [DEKRA](https://www.dekra.com/en/home/).
 You can follow me here:
 
 *	[Twitter](https://twitter.com/devploit)
-* [YouTube](https://www.youtube.com/channel/UCF7wf7sSCQoURJSnMbDZpBw)
+* [YouTube](https://www.youtube.com/c/devploit)
 * [Twitch](https://www.twitch.tv/devploit)
 *	[Github](https://github.com/devploit)
 * [CTFtime](https://ctftime.org/user/25930)
